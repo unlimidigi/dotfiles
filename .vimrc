@@ -2,9 +2,9 @@ set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#begin()
-"Plugin
-"call vundle#end()
+call vundle#begin()
+Plugin 'leafgarland/typescript-vim'
+call vundle#end()
 filetype plugin indent on
 
 let g:delimitMate_expand_cr=1
