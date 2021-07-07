@@ -4,6 +4,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'leafgarland/typescript-vim'
+Plugin 'tomlion/vim-solidity'
 call vundle#end()
 filetype plugin indent on
 
